@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Fundamentals — Internship Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>JS — Internship Task</h1>
+
+  <!-- 1. Age to Days -->
+  <section class="card">
+    <h2>1. Age → Days Converter</h2>
+    <input type="number" id="ageInput" placeholder="Enter age in years" />
+    <button onclick="convertAgeToDays()">Convert</button>
+    <p class="result" id="ageResult"></p>
+  </section>
+
+  <!-- 2. Hours to Seconds -->
+  <section class="card">
+    <h2>2. Hours → Seconds Converter</h2>
+    <input type="number" id="hoursInput" placeholder="Enter hours" />
+    <button onclick="convertHoursToSeconds()">Convert</button>
+    <p class="result" id="hoursResult"></p>
+  </section>
+
+  <!-- 3. Find Next Number -->
+  <section class="card">
+    <h2>3. Find the Next Number</h2>
+
+    <h3>a) Next number in an array</h3>
+    <input type="text" id="arrayInput" placeholder="e.g. 3,7,10,15" />
+    <input type="number" id="arrayTarget" placeholder="Target number" />
+    <button onclick="findNextInArray()">Find</button>
+    <p class="result" id="arrayResult"></p>
+
+    <h3>b) Next number from a single value (int or float)</h3>
+    <input type="text" id="singleValue" placeholder="Enter a number, e.g. 5 or 5.5" />
+    <button onclick="findNextSingle()">Find</button>
+    <p class="result" id="singleResult"></p>
+  </section>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
